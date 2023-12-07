@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #e6e6fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container{
+  background: #fff;
+  padding: 20px;
+}
+.container h4{
+  color: #00008b;
+  text-align: center;
+  text-transform: uppercase;
+}
+.container form{
+  padding: 20px;
+  min-width: 380px;
+}
+.container form p{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 8px;
+}
+.container form p {
+  font-weight: 600;
+}
+.container form p input{
+  padding: 4px 6px;
+  outline: none;
+  border: 1px solid #777;
+}
+.container form button{
+  display: block;
+  padding: 8px 15px;
+  font-weight: 600;
+  color: #fff;
+  background: #00008b;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.success_msg{
+  text-align: center;
+  color: #008000;
+  font-weight: 600;
+}
+.errorlist li{
+  color: #ff0000;
+  list-style: none;
+  padding-left: 4px;
+}
